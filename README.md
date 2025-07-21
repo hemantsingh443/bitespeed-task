@@ -31,8 +31,8 @@ It exposes a single endpoint `/identify` that consolidates and returns a custome
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/bitespeed-identity-reconciliation.git
-   cd bitespeed-identity-reconciliation
+   git clone https://github.com/hemantsingh443/bitespeed-task.git
+   cd bitespeed-task
    ```
 
 2. **Install dependencies**
