@@ -2,6 +2,8 @@
 
 **Live Demo:** [https://bitespeed-task-wwit.onrender.com/](https://bitespeed-task-wwit.onrender.com/)
 
+**Challenge Link:** [Bitespeed Backend Task: Identity Reconciliation](https://bitespeed.notion.site/Bitespeed-Backend-Task-Identity-Reconciliation-1fb21bb2a930802eb896d4409460375c)
+
 This project implements the backend for Bitespeed’s identity reconciliation challenge, designed to link customer identities across multiple purchases, even when different emails or phone numbers are used.  
 It exposes a single endpoint `/identify` that consolidates and returns a customer’s contact information according to the rules described in the problem statement.
 
