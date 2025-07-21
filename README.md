@@ -1,5 +1,7 @@
 # Bitespeed Identity Reconciliation
 
+**Live Demo:** [https://bitespeed-task-wwit.onrender.com/](https://bitespeed-task-wwit.onrender.com/)
+
 This project implements the backend for Bitespeed’s identity reconciliation challenge, designed to link customer identities across multiple purchases, even when different emails or phone numbers are used.  
 It exposes a single endpoint `/identify` that consolidates and returns a customer’s contact information according to the rules described in the problem statement.
 
@@ -93,12 +95,12 @@ Content-Type: application/json
 }
 ```
 
-#### Example cURL
+#### Example cURL (using deployed backend)
 
 ```bash
-curl -X POST http://localhost:3000/identify \
+curl -X POST https://bitespeed-task-wwit.onrender.com/identify \
   -H "Content-Type: application/json" \
-  -d '{"email":"mcfly@hillvalley.edu","phoneNumber":"123456"}'
+  -d '{"email":"final-test@hillvalley.edu","phoneNumber":"999999"}'
 ```
 
 ---
